@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import BlankScreen35376Navigator from '../features/BlankScreen35376/navigator';
-import BlankScreen25361Navigator from '../features/BlankScreen25361/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
@@ -19,7 +18,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 BlankScreen35376: { screen: BlankScreen35376Navigator },
-BlankScreen25361: { screen: BlankScreen25361Navigator },
 EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
